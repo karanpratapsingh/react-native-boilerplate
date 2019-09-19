@@ -39,7 +39,9 @@ git push -u origin master
 ## Rename the project:
 
 Rename the project with the name and bundle identifier of your choosing
+#Note: it is advised to do so in a new branch
 ```
+git checkout -b rename
 yarn run rename -- <new_name> -b <bundle_identifier>
 ```
 
