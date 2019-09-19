@@ -3,12 +3,12 @@
 #### Post Clone:
 Make sure to remove the existing git repo and initialize the project with your own 
 ```bash
-    rm -rf .git/
-    git init
-    git add .
-    git commit -m 'project init'
-    git remote add origin <your repo>
-    git push -u origin master
+rm -rf .git/
+git init
+git add .
+git commit -m 'project init'
+git remote add origin <your repo>
+git push -u origin master
 ```
 
 #### Preinstalled Packages:
