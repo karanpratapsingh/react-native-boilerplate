@@ -1,6 +1,8 @@
 import { SAMPLE_TYPE } from '../actions/Actions.Types';
 
-const initialState = {};
+const initialState = {
+    status: 'Connected'
+};
 
 const Reducer = (state = initialState, action) => {
 
