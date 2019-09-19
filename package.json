@@ -7,7 +7,8 @@
     "test": "jest",
     "cocoapods": "cd ios && pod install && cd ..",
     "ios": "react-native run-ios --simulator=\"iPhone 6\"",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "rename": "react-native-rename"
   },
   "dependencies": {
     "react": "16.8.6",
@@ -29,6 +30,7 @@
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "0.54.1",
+    "react-native-rename": "^2.4.1",
     "react-test-renderer": "16.8.6"
   },
   "jest": {

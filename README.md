@@ -36,6 +36,13 @@ git remote add origin <your remote repo>
 git push -u origin master
 ```
 
+## Rename the project:
+
+Rename the project with the name and bundle identifier of your choosing
+```
+yarn run rename -- <new_name> -b <bundle_identifier>
+```
+
 ## Running the project
 
 Assuming you have all the requirements installed, you can setup and run the project by running:
