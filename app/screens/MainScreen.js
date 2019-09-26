@@ -15,7 +15,7 @@ const MainScreen = () => {
                 <Image source={Logo} style={styles.logo} />
                 <View style={styles.headerContainer}>
                     <Text style={styles.heading}>React Native Boilerplate</Text>
-                    <Text style={styles.body}>Robust boilerplate to kickstart you next app</Text>
+                    <Text style={styles.body}>Robust boilerplate to kickstart your next app</Text>
                 </View>
             </View>
             <Text style={styles.item}>Redux <Text style={{ color: MaterialColors.green[400] }}>{status}</Text></Text>
