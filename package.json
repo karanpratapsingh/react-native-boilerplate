@@ -8,7 +8,8 @@
     "cocoapods": "cd ios && pod install && cd ..",
     "ios": "react-native run-ios --simulator=\"iPhone 6\"",
     "android": "react-native run-android",
-    "rename": "react-native-rename"
+    "rename": "react-native-rename",
+    "redux:remove": "yarn remove redux react-redux redux-thunk"
   },
   "dependencies": {
     "react": "16.8.6",
