@@ -1,5 +1,5 @@
 <p align="center">
-<img style="margin-bottom: 20px;" alt="Project Structure" src="./assets/images/banner.png">
+<img style="margin-bottom: 40px;" alt="Project Structure" src="./assets/images/banner.png">
 </p>
 
 This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that  provides **an architecture optimized for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic to help you kickstart your new app
@@ -17,16 +17,22 @@ If you're new to React Native feel free to checkout a gist I made where I keep a
 - [ ] React Native 0.61.x
 - [ ] TypeScript support
 
-## Content
-   [Packages](#Packages)
+## Index
+   [Content](#Content)
+
    [Project Structure](#ProjectStructure)
+
    [Updates](#Updates)
+
    [Using the boilerplate](#UsingBoilerplate)
+
    [Rename the project](#Rename)
+
    [Removing Redux](#RemoveRedux)
+
    [Running the project](#RunningProject)
 
-## <a name="Packages"></a> Packages:
+## <a name="Content"></a> Content:
 
     - React Native (0.60.5) + Hermes
     - Clean Directory Layout
