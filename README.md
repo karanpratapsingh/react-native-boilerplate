@@ -12,7 +12,9 @@ While this mostly consists of how I organize my projects but can be easily exten
 
 If you're new to React Native feel free to checkout a gist I made where I keep all the learning resources I find: [Learn React Native](https://gist.github.com/karanpratapsingh/51dc4e585439758eb6afcc90ede21880)
 
-## Coming soon:
+Leave a :star: as motivation if this was useful to you :smile:
+
+## Coming soon :fire:
 
 - [ ] React Native 0.61.x
 - [ ] TypeScript support
