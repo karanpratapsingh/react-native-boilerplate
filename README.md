@@ -1,13 +1,34 @@
-# React Native Boilerplate
-This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that can be used to kickstart a mobile application.
+<p align="center">
+<img style="margin-bottom: 20px;" alt="Project Structure" src="./assets/images/banner.png">
+</p>
 
-The boilerplate provides **an architecture optimized for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic.
+This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that  provides **an architecture optimized for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic to help you kickstart your new app
 
-While I use this boilerplate for my project but this can be extended as you like.
+When starting new apps I found myself repeatedly setting up my project with same packages over and over again so I decided to automate this process
 
-## Content:
+This boilerplate consists of various elements and best practices I learned while going though apps written by various talented developers in the React Native Community :zap:
 
-    - React Native (0.60.x) + Hermes
+While this mostly consists of how I organize my projects but can be easily extended to suit any workflow :smile:
+
+If you're new to React Native feel free to checkout a gist I made where I keep all the learning resources I find: [Learn React Native](https://gist.github.com/karanpratapsingh/51dc4e585439758eb6afcc90ede21880)
+
+## Coming soon:
+
+- [ ] React Native 0.61.x
+- [ ] TypeScript support
+
+## Content
+   [Packages](#Packages)
+   [Project Structure](#ProjectStructure)
+   [Updates](#Updates)
+   [Using the boilerplate](#UsingBoilerplate)
+   [Rename the project](#Rename)
+   [Removing Redux](#RemoveRedux)
+   [Running the project](#RunningProject)
+
+## <a name="Packages"></a> Packages:
+
+    - React Native (0.60.5) + Hermes
     - Clean Directory Layout
     - ESLint
     - Packages:
@@ -17,15 +38,15 @@ While I use this boilerplate for my project but this can be extended as you like
         - React Native Vector Icons
         - React Native Gesture Handler
 
-## Project Structure:
+## <a name="ProjectStructure"></a> Project Structure:
 
 <img width="200" alt="Project Structure" src="https://user-images.githubusercontent.com/29705703/65224389-b3779980-dae0-11e9-9988-27a2ab7b5fe1.png">
 
-## Updates
+## <a name="Updates"></a> Updates
 
 The boilerplate will follow latest React Native releases as soon as libraries and tools used here are compatible.
 
-## Using the boilerplate:
+## <a name="UsingBoilerplate"></a> Using the boilerplate:
 Make sure to remove the existing git history and initialize the project with your own 
 ```bash
 rm -rf .git/
@@ -36,16 +57,26 @@ git remote add origin <your remote repo>
 git push -u origin master
 ```
 
-## Rename the project:
+## <a name="RenameProject"></a> Rename the project:
 
 Rename the project with the name and bundle identifier of your choosing
-#Note: it is advised to do so in a new branch
+**Note**: it is advised to do so in a new branch
 ```
 git checkout -b rename
-yarn run rename -- <new_name> -b <bundle_identifier>
+yarn run rename <new_name> -b <bundle_identifier>
 ```
 
-## Running the project
+## <a name="RemovingRedux"></a> Removing Redux:
+
+I personally like Redux for state management for larger apps but sometimes if the app is relatively smaller then I stick to using context api or simple `useState` or `useReducer`
+
+Checkout this great light weight Redux like implementation using just the `React Context` api: [No-Redux](https://github.com/RichardBray/no-redux)
+
+If you like to use other great solutions such as MobX, RxJS then feel free to remove redux by using `yarn run redux:remove`
+
+**Note**: you will have to configure the project files accordingly :sweat_smile:
+
+## <a name="RunningProject"></a> Running the project
 
 Assuming you have all the requirements installed, you can setup and run the project by running:
 
@@ -62,7 +93,7 @@ yarn run android
 
 ### iOS
 
-Run the following commands to install pods and run the app on iPhone 6 simulator (can be changed via `package.json` scripts)
+Run the following commands to install pods and run the app on iPhone 6 simulator (device can be changed via `package.json` scripts)
 ```
 yarn run cocoapods
 yarn run ios
