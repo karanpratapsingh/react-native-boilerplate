@@ -28,9 +28,9 @@ Leave a :star: as motivation if this was useful to you :smile:
 
    [Using the boilerplate](#UsingBoilerplate)
 
-   [Rename the project](#Rename)
+   [Rename the project](#RenameProject)
 
-   [Removing Redux](#RemoveRedux)
+   [Removing Redux](#RemovingRedux)
 
    [Running the project](#RunningProject)
 
