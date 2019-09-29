@@ -18,30 +18,34 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 ## Coming soon :fire:
 
+* [ ] React Native Firebase
 * [X] React Native 0.61.1
-* [ ] TypeScript support
+* [X] TypeScript support
 
 ## Index
 
-   [Content](#Content)
+   - [Content](#Content)
 
-   [Project Structure](#ProjectStructure)
+   - [Project Structure](#ProjectStructure)
 
-   [Updates](#Updates)
+   - [TypeScript Support (Beta)](#TypeScriptSupport)
 
-   [Using the boilerplate](#UsingBoilerplate)
+   - [Using the boilerplate](#UsingBoilerplate)
 
-   [Rename the project](#RenameProject)
+   - [Rename the project](#RenameProject)
 
-   [Removing Redux](#RemovingRedux)
+   - [Removing Redux](#RemovingRedux)
 
-   [Running the project](#RunningProject)
+   - [Running the project](#RunningProject)
 
-   [Known Issues](#KnownIssues)
+   - [Updates](#Updates)
+
+   - [Known Issues](#KnownIssues)
 
 ## <a name="Content"></a> Content:
 
     - React Native (0.61.1) + Hermes
+    - TypeScript Integration (Optional)
     - Clean Directory Layout
     - ESLint
     - Packages:
@@ -55,9 +59,16 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 <img width="200" alt="Project Structure" src="https://user-images.githubusercontent.com/29705703/65224389-b3779980-dae0-11e9-9988-27a2ab7b5fe1.png">
 
-## <a name="Updates"></a> Updates
+## <a name="TypeScriptSupport"></a> TypeScript Support (Beta)
 
-The boilerplate will follow latest React Native releases as soon as libraries and tools used here are compatible.
+Recently I've been using a lot of TypeScript and I think it's fantastic :smiley: 
+Addition of TypeScript to this boilerplate was a much requested feature from a lot of reddit users of [r/react-native](https://www.reddit.com/r/reactnative/)
+
+To add TypeScript support please run `yarn run typescript:add` command which should excecute the `typescript.sh` script and install all the TypeScript dependencies with types for React, React Native, React Navigation and also add a `tsconfig.json` and `jest.config.js` 
+
+If `yarn run typescript:add` fails then kindly apply the changes as mentioned in the [docs](https://facebook.github.io/react-native/docs/typescript) :sweat:
+
+**Note**: This feature is in beta and only tested on Linux and MacOSX
 
 ## <a name="UsingBoilerplate"></a> Using the boilerplate:
 
@@ -116,6 +127,10 @@ Run the following commands to install pods and run the app on iPhone 6 simulator
 yarn run cocoapods
 yarn run ios
 ```
+
+## <a name="Updates"></a> Updates
+
+The boilerplate will follow latest React Native releases as soon as libraries and tools used here are compatible. I will personally try update this as I use this boilerplate in production :smile:
 
 ### <a name="KnownIssues"></a> Known Issues:
 

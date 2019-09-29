@@ -9,7 +9,8 @@
     "ios": "react-native run-ios --simulator=\"iPhone 6\"",
     "android": "react-native run-android",
     "rename": "react-native-rename",
-    "redux:remove": "yarn remove redux react-redux redux-thunk"
+    "redux:remove": "yarn remove redux react-redux redux-thunk",
+    "typescript:add": "sh typescript.sh"
   },
   "dependencies": {
     "react": "16.9.0",
