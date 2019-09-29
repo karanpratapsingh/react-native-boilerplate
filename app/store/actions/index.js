@@ -1,4 +1,4 @@
-import { SAMPLE_TYPE } from './Action.Types';
+import { SAMPLE_TYPE } from './types';
 
 export const sampleAction = () => {
 
