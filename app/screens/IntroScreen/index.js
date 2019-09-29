@@ -1,11 +1,10 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { useSelector } from 'react-redux';
-import Logo from '../../assets/images/react-logo.png';
-import { MaterialColors } from '../theme/Colors';
-import Typography from '../theme/Typography';
+import Logo from '../../../assets/images/react-logo.png';
+import { MaterialColors, Typography } from '../../theme';
 
-const MainScreen = () => {
+const IntroScreen = () => {
 
     const { status } = useSelector(state => state.appData);
 
@@ -52,4 +51,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default MainScreen;
+export default IntroScreen;

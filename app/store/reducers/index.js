@@ -1,4 +1,4 @@
-import { SAMPLE_TYPE } from '../actions/Actions.Types';
+import { SAMPLE_TYPE } from '../actions/types';
 
 const initialState = {
     status: 'Connected'
