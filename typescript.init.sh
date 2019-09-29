@@ -1,7 +1,9 @@
 # Install typescript dependencies:
+echo "[+] Installing typescript dependencies"
 yarn add typescript @types/jest @types/react @types/react-native @types/react-test-renderer
 
 # Init tsconfig.json
+echo "[+] Adding tsconfig.json"
 echo '{
   "compilerOptions": {
     "allowJs": true,
@@ -14,7 +16,7 @@ echo '{
     "noEmit": true,
     "strict": true,
     "target": "esnext",
-    "noImplicitAny": true
+    "noImplicitAny": false
   },
   "exclude": [
     "node_modules",
@@ -25,21 +27,26 @@ echo '{
 }' > tsconfig.json
 
 # Create jest.config.js
+echo "[+] Adding jest.config.json"
 echo "module.exports = {
     preset: 'react-native',
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };" > jest.config.js
 
 # Rename *.js -> *.ts
-cd app/
+echo "[+] Renaming *.js -> *.ts"
 
-for file in *.js; do
-    mv "$file" "$(basename "$file" .js).ts"
+cd app/
+for dir in $(find . -maxdepth 2 -type d); do
+    for file in $dir/*.js; do
+        if [ -e $file ]
+        then
+            mv $file $dir/$(basename $file .js).ts
+        fi
+    done
 done
 
-echo "adjusting *.ts -> *.tsx"
+echo "[+] Adjusting *.ts -> *.tsx"
 mv screens/IntroScreen/index.ts screens/IntroScreen/index.tsx
-
 cd ..
-
 mv App.js App.tsx
