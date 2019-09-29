@@ -5195,10 +5195,10 @@ react-native-gesture-handler@^1.4.1:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-reanimated@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.2.0.tgz#9219227a52a5dfa4d34c324596d6726ccd874293"
-  integrity sha512-vkWRHrPK5qfHP/ZawlRoo38oeYe9NZaaOH/lmFxRcsKzaSK6x3H5ZPXI8lK6MfTLveqwo1QhJje3zIKXO4nQQw==
+react-native-reanimated@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.3.0.tgz#581cdb0bd1ff05e7304b116af712ded0c7665ede"
+  integrity sha512-KFno6D0q09kx71IDuPa4qeC1t1msALsCMuli3/EN3YDf8XoM2CG53yzhVHMFtmcW0IUCySugHgxQiuT5BzwOPA==
 
 react-native-rename@^2.4.1:
   version "2.4.1"
@@ -5274,17 +5274,17 @@ react-navigation-hooks@^1.0.3:
   resolved "https://registry.yarnpkg.com/react-navigation-hooks/-/react-navigation-hooks-1.0.3.tgz#8c203c1a4eff453d2cc07b33667abdd2a6417ab8"
   integrity sha512-w9H7hVJGS2rhonpnih4LgJ6Elrg2Xc41njvmwlI7ZwEo0JDJt/D4sulYvJcvrxhslmVNbu14F8KwgeCTwTWXjg==
 
-react-navigation-stack@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-1.8.0.tgz#52cb159371b64d20780a72ce43e9620adec2f2a0"
-  integrity sha512-J8ezJlZRxoXuxVH7Y9EOBBluoOpjgrFN0HBKMJyi8ctFEVDsEjjbsffhk6ihOeZ2um7dPYErzeD7sLjx8YQDzw==
+react-navigation-stack@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-1.9.1.tgz#6634ad4e782fa52a6c38adccac2d2b795d7de756"
+  integrity sha512-UI8P27hKzpcDTCjU8wn8LkyC9sZRYSwIfyUaU2PyOCdkoG1YOpzqbWTINiPYLglUeaGjr1iL/cyiCTBIpLFPAw==
   dependencies:
     prop-types "^15.7.2"
 
-react-navigation@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.0.5.tgz#d4e16d9884cfd6bb2cda4d16e001227e2c859b46"
-  integrity sha512-VidRiSA2RvrgPlKs/7FNKV6pXEYXREtxiEl6m/Dmfb8x27amG6JRibzJC2mpWt4w0SAIGMUjHallRi3h9sIk0A==
+react-navigation@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.0.10.tgz#ddf41134600689d6ba99e35dd22ba1f664f91e5c"
+  integrity sha512-7PqvmsdQ7HIyxPUMYbd9Uq//VoMdniEOLAOSvIhb/ExtbAt/1INSjUF+RiMWOMCWLTCNvNPRvTz7xy7qwWureg==
   dependencies:
     "@react-navigation/core" "^3.5.1"
     "@react-navigation/native" "^3.6.2"
