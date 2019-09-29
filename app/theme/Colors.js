@@ -11,6 +11,7 @@ export const AppColors = {
  * Material Colors following material design guidelines for
  * miscellaneous colors
  */
+
 export const MaterialColors = {
     red: {
         '100': '#ffcdd2',
