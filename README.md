@@ -1,5 +1,5 @@
 <p align="center">
-<img style="margin-bottom: 40px;" alt="Project Structure" src="./assets/images/banner.png">
+<img style="margin-bottom: 40px; " alt="Project Structure" src="./assets/images/banner.png">
 </p>
 
 This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that  provides **an architecture optimized for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic to help you kickstart your new app
@@ -12,14 +12,17 @@ While this mostly consists of how I organize my projects but can be easily exten
 
 If you're new to React Native feel free to checkout a gist I made where I keep all the learning resources I find: [Learn React Native](https://gist.github.com/karanpratapsingh/51dc4e585439758eb6afcc90ede21880)
 
-Leave a :star: as motivation if this was useful to you :smile:
+If you face any issue then please checkout the Known Issues section below, but if the issue persists then feel free to open a issue so we can solve it together :smiley:
+
+**Feel free to leave a :star: as motivation if this was useful to you :smile:**
 
 ## Coming soon :fire:
 
-- [ ] React Native 0.61.x
-- [ ] TypeScript support
+* [X] React Native 0.61.1
+* [ ] TypeScript support
 
 ## Index
+
    [Content](#Content)
 
    [Project Structure](#ProjectStructure)
@@ -34,9 +37,11 @@ Leave a :star: as motivation if this was useful to you :smile:
 
    [Running the project](#RunningProject)
 
+   [Known Issues](#KnownIssues)
+
 ## <a name="Content"></a> Content:
 
-    - React Native (0.60.5) + Hermes
+    - React Native (0.61.1) + Hermes
     - Clean Directory Layout
     - ESLint
     - Packages:
@@ -55,8 +60,10 @@ Leave a :star: as motivation if this was useful to you :smile:
 The boilerplate will follow latest React Native releases as soon as libraries and tools used here are compatible.
 
 ## <a name="UsingBoilerplate"></a> Using the boilerplate:
+
 Make sure to remove the existing git history and initialize the project with your own 
-```bash
+
+``` bash
 rm -rf .git/
 git init
 git add .
@@ -69,18 +76,19 @@ git push -u origin master
 
 Rename the project with the name and bundle identifier of your choosing
 **Note**: it is advised to do so in a new branch
-```
+
+``` 
 git checkout -b rename
 yarn run rename <new_name> -b <bundle_identifier>
 ```
 
 ## <a name="RemovingRedux"></a> Removing Redux:
 
-I personally like Redux for state management for larger apps but sometimes if the app is relatively smaller then I stick to using context api or simple `useState` or `useReducer`
+I personally like Redux for state management for larger apps but sometimes if the app is relatively smaller then I stick to using context api or simple `useState` or `useReducer` 
 
 Checkout this great light weight Redux like implementation using just the `React Context` api: [No-Redux](https://github.com/RichardBray/no-redux)
 
-If you like to use other great solutions such as MobX, RxJS then feel free to remove redux by using `yarn run redux:remove`
+If you like to use other great solutions such as MobX, RxJS then feel free to remove redux by using `yarn run redux:remove` 
 
 **Note**: you will have to configure the project files accordingly :sweat_smile:
 
@@ -88,22 +96,32 @@ If you like to use other great solutions such as MobX, RxJS then feel free to re
 
 Assuming you have all the requirements installed, you can setup and run the project by running:
 
-- `yarn install` to install the dependencies
+* `yarn install` to install the dependencies
 
-- use the following steps for your platform
+* use the following steps for your platform
 
 ### Android
 
 Run the following command while the simulator is open or a device is connected via adb.
-```
+
+``` 
 yarn run android
 ```
 
 ### iOS
 
 Run the following commands to install pods and run the app on iPhone 6 simulator (device can be changed via `package.json` scripts)
-```
+
+``` 
 yarn run cocoapods
 yarn run ios
 ```
+
+### <a name="KnownIssues"></a> Known Issues:
+
+**Cocoapods install fails**
+
+`yarn run cocoapods` might fail for some users, if this happens then try deleting `Podlock.file` and re-running the `yarn run cocoapods` command :smile:
+
+If the error persists then please check your cocoapods version using `pod --version` . It should be `>= 1.7.5` . If not then please run `sudo gem install cocoapods` :smiley: 
 
