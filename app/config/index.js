@@ -1,5 +1,5 @@
-const AppConfig = {
+const Config = {
     version: '1.0.0'
 };
 
-export default AppConfig;
+export default Config;
