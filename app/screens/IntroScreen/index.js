@@ -18,6 +18,7 @@ const IntroScreen = () => {
                 </View>
             </View>
             <Text style={styles.item}>Redux <Text style={{ color: MaterialColors.green[400] }}>{status}</Text></Text>
+            <Text style={styles.item}>TypeScript <Text style={{ color: MaterialColors.blue[800] }}>Added</Text></Text>
         </View>
     );
 };
