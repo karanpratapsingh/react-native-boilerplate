@@ -64,9 +64,9 @@ If you face any issue then please checkout the Known Issues section below, but i
 Recently I've been using a lot of TypeScript and I think it's fantastic :smiley: 
 Addition of TypeScript to this boilerplate was a much requested feature from a lot of reddit users of [r/react-native](https://www.reddit.com/r/reactnative/)
 
-To add TypeScript support please run `yarn run typescript:add` command which should excecute the `typescript.sh` script and install all the TypeScript dependencies with types for React, React Native, React Navigation and also add a `tsconfig.json` and `jest.config.js` 
+To add TypeScript support please run `yarn typescript:add` command which should excecute the `typescript.sh` script and install all the TypeScript dependencies with types for React, React Native, React Navigation and also add a `tsconfig.json` and `jest.config.js` 
 
-If `yarn run typescript:add` fails then kindly apply the changes as mentioned in the [docs](https://facebook.github.io/react-native/docs/typescript) :sweat:
+If `yarn typescript:add` fails then kindly apply the changes as mentioned in the [docs](https://facebook.github.io/react-native/docs/typescript) :sweat:
 
 **Note**: This feature is in beta and only tested on Linux and MacOSX
 
@@ -90,7 +90,7 @@ Rename the project with the name and bundle identifier of your choosing
 
 ``` 
 git checkout -b rename
-yarn run rename <new_name> -b <bundle_identifier>
+yarn rename <new_name> -b <bundle_identifier>
 ```
 
 ## <a name="RemovingRedux"></a> Removing Redux:
@@ -99,7 +99,7 @@ I personally like Redux for state management for larger apps but sometimes if th
 
 Checkout this great light weight Redux like implementation using just the `React Context` api: [No-Redux](https://github.com/RichardBray/no-redux)
 
-If you like to use other great solutions such as MobX, RxJS then feel free to remove redux by using `yarn run redux:remove` 
+If you like to use other great solutions such as MobX, RxJS then feel free to remove redux by using `yarn redux:remove` 
 
 **Note**: you will have to configure the project files accordingly :sweat_smile:
 
@@ -116,7 +116,7 @@ Assuming you have all the requirements installed, you can setup and run the proj
 Run the following command while the simulator is open or a device is connected via adb.
 
 ``` 
-yarn run android
+yarn android
 ```
 
 ### iOS
@@ -124,8 +124,8 @@ yarn run android
 Run the following commands to install pods and run the app on iPhone 6 simulator (device can be changed via `package.json` scripts)
 
 ``` 
-yarn run cocoapods
-yarn run ios
+yarn cocoapods
+yarn ios
 ```
 
 ## <a name="Updates"></a> Updates
@@ -136,7 +136,7 @@ The boilerplate will follow latest React Native releases as soon as libraries an
 
 **Cocoapods install fails**
 
-`yarn run cocoapods` might fail for some users, if this happens then try deleting `Podlock.file` and re-running the `yarn run cocoapods` command :smile:
+`yarn cocoapods` might fail for some users, if this happens then try deleting `Podlock.file` and re-running the `yarn cocoapods` command :smile:
 
 If the error persists then please check your cocoapods version using `pod --version` . It should be `>= 1.7.5` . If not then please run `sudo gem install cocoapods` :smiley: 
 
