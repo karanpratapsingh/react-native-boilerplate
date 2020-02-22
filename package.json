@@ -10,11 +10,12 @@
     "android": "react-native run-android",
     "rename": "react-native-rename",
     "redux:remove": "yarn remove redux react-redux redux-thunk",
-    "typescript:add": "sh typescript.sh"
+    "typescript:add": "sh typescript.sh",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.8.1",
-    "react-native": "0.61.3",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
     "react-native-gesture-handler": "^1.5.0",
     "react-native-reanimated": "^1.4.0",
     "react-native-vector-icons": "^6.6.0",
@@ -26,14 +27,15 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/runtime": "^7.5.0",
-    "@react-native-community/eslint-config": "^0.0.3",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
-    "metro-react-native-babel-preset": "0.51.1",
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
     "react-native-rename": "^2.4.1",
-    "react-test-renderer": "16.8.1"
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
