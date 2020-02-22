@@ -18,9 +18,8 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 ## Coming soon :fire:
 
-* [ ] React Native Firebase
-* [X] React Native 0.61.1
-* [X] TypeScript support
+* [ ] Branch with React Native Firebase
+* [ ] Branch with Apollo GraphQL setup
 
 ## Index
 
