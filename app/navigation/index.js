@@ -1,13 +1,17 @@
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-import { IntroScreen } from '../screens';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-const StackNavigator = createStackNavigator({
-    IntroScreen: {
-        screen: IntroScreen
-    }
-}, { headerMode: 'none' });
+import { HomeScreen } from '../screens';
 
-const AppNavigator = createAppContainer(StackNavigator);
+const Stack = createStackNavigator();
+
+const AppNavigator = () => (
+  <NavigationContainer>
+    <Stack.Navigator initialRouteName='HomeScreen' screenOptions={{ headerShown: false }}>
+      <Stack.Screen name='HomeScreen' component={HomeScreen} />
+    </Stack.Navigator>
+  </NavigationContainer>
+);
 
 export default AppNavigator;

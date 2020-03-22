@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 import Reducer from './reducers';
 
 const Reducers = {
-    appData: Reducer
+  data: Reducer
 };
 
 const Store = createStore(combineReducers(Reducers), applyMiddleware(thunk));
