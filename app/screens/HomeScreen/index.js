@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { useSelector } from 'react-redux';
-import Logo from '../../../assets/images/react-logo.png';
-import { MaterialColors, FontWeights, FontSizes } from '../../theme';
+import Logo from 'assets/images/react-logo.png';
+import { MaterialColors, FontWeights, FontSizes } from '@app/theme';
 
 const HomeScreen = () => {
   const { status } = useSelector(({ data }) => data);
