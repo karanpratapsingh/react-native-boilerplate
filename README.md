@@ -16,18 +16,13 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 **Feel free to leave a :star: as motivation if this was useful to you :smile:**
 
-## Coming soon :fire:
-
-* [ ] Branch with React Native Firebase
-* [ ] Branch with Apollo GraphQL setup
-
 ## Index
 
    - [Content](#Content)
 
    - [Project Structure](#ProjectStructure)
 
-   - [TypeScript Support (Beta)](#TypeScriptSupport)
+   - [TypeScript Support](#TypeScriptSupport)
 
    - [Using the boilerplate](#UsingBoilerplate)
 
@@ -43,7 +38,7 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 ## <a name="Content"></a> Content:
 
-    - React Native (0.61.1) + Hermes
+    - React Native (0.61.5) + Hermes
     - TypeScript Integration (Optional)
     - Clean Directory Layout
     - ESLint
@@ -58,16 +53,16 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 <img width="200" alt="Project Structure" src="https://user-images.githubusercontent.com/29705703/65224389-b3779980-dae0-11e9-9988-27a2ab7b5fe1.png">
 
-## <a name="TypeScriptSupport"></a> TypeScript Support (Beta)
+## <a name="TypeScriptSupport"></a> TypeScript Support
 
 Recently I've been using a lot of TypeScript and I think it's fantastic :smiley: 
 Addition of TypeScript to this boilerplate was a much requested feature from a lot of reddit users of [r/react-native](https://www.reddit.com/r/reactnative/)
 
-To add TypeScript support please run `yarn typescript:add` command which should excecute the `typescript.sh` script and install all the TypeScript dependencies with types for React, React Native, React Navigation and also add a `tsconfig.json` and `jest.config.js` 
+To add TypeScript support please run `yarn typescript:add` command which should excecute the `scripts/add-typescript/script.sh` script and installs all the TypeScript dependencies with types for React, React Native, React Navigation and also add a `tsconfig.json` and `jest.config.js` 
 
 If `yarn typescript:add` fails then kindly apply the changes as mentioned in the [docs](https://facebook.github.io/react-native/docs/typescript) :sweat:
 
-**Note**: This feature is in beta and only tested on Linux and MacOSX
+**Note**: This feature is only tested on Linux and MacOSX
 
 ## <a name="UsingBoilerplate"></a> Using the boilerplate:
 
