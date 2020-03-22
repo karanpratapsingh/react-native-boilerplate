@@ -10,7 +10,7 @@
     "android": "react-native run-android",
     "rename": "react-native-rename",
     "redux:remove": "yarn remove redux react-redux redux-thunk",
-    "typescript:add": "sh typescript.sh",
+    "typescript:add": "sh scripts/typescript.sh",
     "lint": "eslint ."
   },
   "dependencies": {

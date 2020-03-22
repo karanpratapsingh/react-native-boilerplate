@@ -33,20 +33,4 @@ echo "module.exports = {
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };" > jest.config.js
 
-# Rename *.js -> *.ts
-echo "[+] Renaming *.js -> *.ts"
-
-cd app/
-for dir in $(find . -maxdepth 2 -type d); do
-    for file in $dir/*.js; do
-        if [ -e $file ]
-        then
-            mv $file $dir/$(basename $file .js).ts
-        fi
-    done
-done
-
-echo "[+] Adjusting *.ts -> *.tsx"
-mv screens/IntroScreen/index.ts screens/IntroScreen/index.tsx
-cd ..
-mv App.js App.tsx
+echo "[√] Completed"
