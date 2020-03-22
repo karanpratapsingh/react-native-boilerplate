@@ -10,7 +10,7 @@ This boilerplate consists of various elements and best practices I learned while
 
 While this mostly consists of how I organize my projects but can be easily extended to suit any workflow :smile:
 
-If you're new to React Native feel free to checkout a gist I made where I keep all the learning resources I find: [Learn React Native](https://gist.github.com/karanpratapsingh/51dc4e585439758eb6afcc90ede21880)
+If you're new to React Native feel free to checkout this repo I made where I keep all the learning resources I find: [Learn React Native](https://github.com/karanpratapsingh/guides-and-articles/blob/master/Guides/Learn%20React%20Native.md)
 
 If you face any issue then please checkout the Known Issues section below, but if the issue persists then feel free to open a issue so we can solve it together :smiley:
 
