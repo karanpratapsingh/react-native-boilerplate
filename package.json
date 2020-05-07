@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
     "test": "jest",
+    "cocoapods": "cd ios && pod install && cd ..",
+    "ios": "react-native run-ios --simulator=\"iPhone 8\"",
+    "android": "react-native run-android",
+    "rename": "react-native-rename",
+    "redux:remove": "yarn remove redux react-redux redux-thunk",
+    "typescript:add": "sh scripts/add-typescript/script.sh",
     "lint": "eslint ."
   },
   "dependencies": {
