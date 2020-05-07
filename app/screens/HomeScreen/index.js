@@ -13,11 +13,17 @@ const HomeScreen = () => {
         <Image source={Logo} style={styles.logo} />
         <View style={styles.headerContainer}>
           <Text style={styles.heading}>React Native Boilerplate</Text>
-          <Text style={styles.body}>Robust boilerplate to kickstart your next app</Text>
+          <Text style={styles.body}>
+            Robust boilerplate to kickstart your next app
+          </Text>
         </View>
       </View>
-      <Text style={styles.item}>Redux <Text style={{ color: MaterialColors.green[400] }}>{status}</Text></Text>
-      <Text style={styles.item}>TypeScript <Text style={{ color: MaterialColors.blue[800] }}>Added</Text></Text>
+      <Text style={styles.item}>
+        Redux <Text style={{ color: MaterialColors.green[400] }}>{status}</Text>
+      </Text>
+      <Text style={styles.item}>
+        TypeScript <Text style={{ color: MaterialColors.blue[800] }}>Added</Text>
+      </Text>
     </View>
   );
 };
@@ -27,18 +33,18 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
   },
   content: {
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   headerContainer: {
-    marginLeft: 10
+    marginLeft: 10,
   },
   logo: {
     height: 64,
-    width: 64
+    width: 64,
   },
   heading: {
     ...FontWeights.Light,
@@ -47,13 +53,13 @@ const styles = StyleSheet.create({
   body: {
     ...FontWeights.Light,
     color: MaterialColors.grey[500],
-    ...FontSizes.Body
+    ...FontSizes.Body,
   },
   item: {
     ...FontWeights.Light,
     ...FontSizes.Body,
     marginTop: 10,
-  }
+  },
 });
 
 export default HomeScreen;

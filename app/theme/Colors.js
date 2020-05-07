@@ -4,7 +4,7 @@
  */
 
 export const AppColors = {
-  primary: '#69A4EB'
+  primary: '#69A4EB',
 };
 
 /**
@@ -22,7 +22,7 @@ export const MaterialColors = {
     '600': '#e53935',
     '700': '#d32f2f',
     '800': '#c62828',
-    '900': '#b71c1c'
+    '900': '#b71c1c',
   },
   purple: {
     '100': '#e1bee7',
@@ -33,7 +33,7 @@ export const MaterialColors = {
     '600': '#8e24aa',
     '700': '#7b1fa2',
     '800': '#6a1b9a',
-    '900': '#4a148c'
+    '900': '#4a148c',
   },
   blue: {
     '100': '#bbdefb',
@@ -44,7 +44,7 @@ export const MaterialColors = {
     '600': '#1e88e5',
     '700': '#1976d2',
     '800': '#1565c0',
-    '900': '#0d47a1'
+    '900': '#0d47a1',
   },
   green: {
     '100': '#c8e6c9',
@@ -55,7 +55,7 @@ export const MaterialColors = {
     '600': '#43a047',
     '700': '#388e3c',
     '800': '#2e7d32',
-    '900': '#1b5e20'
+    '900': '#1b5e20',
   },
   yellow: {
     '100': '#fff9c4',
@@ -66,7 +66,7 @@ export const MaterialColors = {
     '600': '#fdd835',
     '700': '#fbc02d',
     '800': '#f9a825',
-    '900': '#f57f17'
+    '900': '#f57f17',
   },
   orange: {
     '100': '#ffe0b2',
@@ -77,7 +77,7 @@ export const MaterialColors = {
     '600': '#fb8c00',
     '700': '#f57c00',
     '800': '#ef6c00',
-    '900': '#e65100'
+    '900': '#e65100',
   },
   brown: {
     '100': '#d7ccc8',
@@ -88,7 +88,7 @@ export const MaterialColors = {
     '600': '#6d4c41',
     '700': '#5d4037',
     '800': '#4e342e',
-    '900': '#3e2723'
+    '900': '#3e2723',
   },
   grey: {
     '100': '#f5f5f5',
@@ -99,6 +99,6 @@ export const MaterialColors = {
     '600': '#757575',
     '700': '#616161',
     '800': '#424242',
-    '900': '#212121'
-  }
+    '900': '#212121',
+  },
 };

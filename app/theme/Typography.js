@@ -8,32 +8,32 @@
 export const FontWeights = {
   Bold: {
     fontFamily: 'SFProDisplay-Bold',
-    color: '#000'
+    color: '#000',
   },
   Regular: {
     fontFamily: 'SFProDisplay-Regular',
-    color: '#000'
+    color: '#000',
   },
   Light: {
     fontFamily: 'SFProDisplay-Light',
-    color: '#000'
-  }
+    color: '#000',
+  },
 };
 
 export const FontSizes = {
   Heading: {
-    fontSize: 32
+    fontSize: 32,
   },
   SubHeading: {
-    fontSize: 24
+    fontSize: 24,
   },
   Label: {
-    fontSize: 20
+    fontSize: 20,
   },
   Body: {
-    fontSize: 16
+    fontSize: 16,
   },
   Caption: {
-    fontSize: 14
-  }
+    fontSize: 14,
+  },
 };

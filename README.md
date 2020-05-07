@@ -38,7 +38,7 @@ If you face any issue then please checkout the Known Issues section below, but i
 
 ## <a name="Content"></a> Content:
 
-    - React Native (0.61.5) + Hermes
+    - React Native (0.62.2) + Hermes
     - TypeScript Integration (Optional)
     - Clean Directory Layout
     - ESLint
